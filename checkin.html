@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<title>	
+			hotel form
+		</title>
+<link href="css/checkin.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/heading.css">
+ </head>
+<body class=a>
+<header>
+
+<div class=heading>
+
+<img  class="img1" src="images/logo1.jpg" alt="logo"/>
+
+<ul>
+<a href="blog.html" target="_blank"><li>Blog
+</li></a>
+<!--<a href="checkin.html" target="_blank"><li>CheckIn</li></a>-->
+<a href="rooms.html" target="_blank"><li>Rooms
+</li></a>
+<a href="feedbackform.html" target="_blank"><li>Feedback
+</li></a>
+<a href="loginform.html" target="_blank"><li>Join Us
+</li></a>
+<a href="gallery.html" target="_blank"><li>Gallery
+</li></a>
+<a href="index.html" target="_blank"><li>Home
+</li></a></ul>
+</div>
+
+</header>
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+	<div align="center" >
+	<form style="position:absolute; left:33.5%; top:10%; margin-bottom:100px;">
+<h3 class="abc">Book your Room</h3>
+ 
+<a href="mybooking.html">Click here if you already had a booking</a><br><br>
+
+		Fullname:<br><input type:"text" name="usename" placeholder="enter your fullname"> <br>
+		Email ID:<br><input type:"text" name="email" placeholder="enter your email id"><br>
+		Mobile Number +91 :<br><input type="number" placeholder="enter your mobile number"><br>
+		Hotel Type:<br><select name="hotel_type" style="width : 60%;">
+				<option value="NIL">Select Your Hotel Type</option>
+				<option value="ac">Air Conditioned</option>
+				<option value="nonac">Non-Air Conditioned</option>
+				<option value="deluxe">Deluxe</option>
+			</select><br>
+		Check-in Date:<br><input type="date" id="start" name="trip-start" value="2019-06-01" min="2019-06-01" max="2019-12-31"><br>
+		Check-In:<br><input type='time' value="12:00" name="checkin-time"><br>
+		Check-out Date:<br><input type="date" id="end" name="trip-end" value="2019-06-02" min="2019-06-01" max="2019-12-31"><br>
+		Check-out:<br><input type="time" value="12:00" name="checkout-time"><br>
+		<button type="submit">ENTER</button>
+
+	</form>
+	</div>
+</body>
+</html>

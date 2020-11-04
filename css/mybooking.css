@@ -1,0 +1,50 @@
+body 
+{background:url(../images/architecture-639103_960_720.jpg);
+ background-repeat: no-repeat ;
+ background-size:cover;
+ display:inline;
+}
+/* Bordered form */
+form
+ {background-color:#421A11  ;  
+width:50%;
+border: 3px solid #ff5050;
+margin:256px 112.5px;
+align:center;
+}
+/* Full-width inputs */
+input[type=text], input[type=password]  
+{color=khaki;
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+/*display: inline-block;*/
+border: 1px #ff5050;
+box-sizing: border-box;
+opacity=0.8;
+}
+
+/* Set a style for all buttons */
+button
+{background-color: #ff5050; 
+color:#421A11 ;
+padding: 14px 20px;
+margin: 8px 0;
+border:none;
+cursor: pointer;
+width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover
+ {
+opacity: 0.8;
+}
+html
+{
+font-family:Mangal,Metric,adobe-heiti-std,roboto,Sans-Serif;
+}
+.a
+{
+color:#ff5050;
+}

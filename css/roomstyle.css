@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color:rgba(192,192,192,0.3);
+  height: 100vh;
+  
+}
+h1.op{
+text-align:center;
+font-family:georgia;
+font-size:40px;
+}
+h2.q{
+font-family:georgia;
+font-size:30px;
+}
+
+Div.sticky {
+ 
+  top: 0px;
+  padding: 5px;
+background-color:#C1C177;
+ color:white;
+
+  width:100%;
+}
+
+p.r{
+font-family:Antiqua ;
+text-align:center;
+font-size:32px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+justify-content:space-around;
+align:center;
+}
+
+div img.q{
+align:center;
+height:400px;
+width:400px;
+
+}
+
+
+
+
+
+
+

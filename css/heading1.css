@@ -1,0 +1,88 @@
+ul a li:hover{
+background-color:white;
+color: #C1C177;}
+
+ul a li{ 
+  display: block;
+text-transform: uppercase;
+color:black;
+text-decoration:none;
+border-width:1px;  
+border-color:transparent;
+border-style:solid;
+font- family:sans serif;
+font-size:24px;
+padding: 2px 20px;
+transition:0.6s ease;
+float:right;
+}
+li{
+margin:20px;
+
+font-size:24;
+list-style-type:none;
+padding-left:20;
+padding-top:20px;
+padding-bottom:20;
+padding-right:10;
+}
+img.img1{float:left; height:100px; width:150px;}
+div.heading{
+height:100px;
+background-color:rgba(192,192,192,2);
+color:black;
+font-size:32;
+ overflow: visible;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.opt{text-align:center;}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color:rgba(192,192,192,0.3);
+  height: 100vh;
+  
+}
+h1.op{
+text-align:center;
+font-family:georgia;
+font-size:40px;
+}
+h2.q{
+font-family:georgia;
+font-size:30px;
+}
+
+Div.sticky {
+ 
+  top: 0px;
+  padding: 5px;
+background-color:#C1C177;
+ color:white;
+
+  width:100%;
+}
+
+p.r{
+font-family:Antiqua ;
+text-align:center;
+font-size:32px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+justify-content:space-around;
+align:center;
+}
+
+div img.q{
+align:center;
+height:400px;
+width:400px;
+
+}

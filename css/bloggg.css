@@ -1,0 +1,138 @@
+body{
+background-color:rgba(192,192,192,0.3);
+} 
+.heading{
+font-family: "Times New Roman";
+float: left;
+background-color:white;
+color:#c1c177;
+padding:5px;
+text-shadow: 3px 2px white;
+} 
+.intro{
+font-family:"comic sans";
+color:black;
+text-indent: 50px;
+text-align: justify;
+ font-style: oblique;
+letter-spacing: 1px;
+} 
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}     
+.showSlide {  
+            
+display: none  
+        
+}  
+            
+.showSlide img { 
+ 
+               
+ width: 100%;  
+           
+ }  
+        
+.slidercontainer {  
+            
+max-width: 1100px;  
+           
+ position: relative;  
+            
+margin: auto;  
+        }
+  
+        
+.left, .right {  
+            
+cursor: pointer;  
+           
+ position: absolute;  
+            
+top: 50%;  
+            
+width: auto;  
+            
+padding: 16px;  
+            
+margin-top: -22px;  
+            
+color: white;  
+            
+font-weight: bold;  
+            
+font-size: 18px;  
+            
+transition: 0.6s ease;  
+            
+border-radius: 0 3px 3px 0;  
+        
+}  
+        
+.right {  
+            
+right: 0;  
+            
+border-radius: 3px 0 0 3px;  
+        
+}  
+            
+.left:hover, .right:hover {  
+                
+background-color: rgba(115, 115, 115, 0.8);  
+            
+}  
+        
+.content {  
+            
+color: black;  
+            
+font-size: 30px;  
+            
+padding: 8px 12px;  
+            
+position: absolute;  
+            
+top: 10px;  
+            
+width: 100%;  
+            
+text-align: left;  
+        
+}  
+        
+.active {  
+            
+background-color: #717171;  
+        
+}  
+        /* Fading animation */  
+        
+.fade {  
+            
+ 
+-webkit-animation-name: fade;              
+-webkit-animation-duration: 20s;  
+            
+
+ animation-duration: 20s; 
+            
+animation-duration: 20s; }  
+        
+@-webkit-keyframes fade {  
+            
+from {  
+ 
+opacity: 1}  
+           
+to {opacity: 1}}  
+  
+        
+@keyframes fade {from{opacity: 1}  
+            
+to {opacity: 1}
+  
+        }  
+   

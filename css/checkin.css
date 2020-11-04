@@ -1,0 +1,104 @@
+body 
+{
+ background-repeat: no-repeat ;
+
+background-attachment  : fixed;
+font-family:Montserrat;
+ background-size:cover;
+ display:inline;
+}
+
+
+/* Bordered form */
+
+form
+ 
+{background-color:#E0E2DB;
+position : fixed;
+top : 35%;
+left:34.5%;
+  
+width:33.5%;
+
+border-radius : 1.5%;
+
+
+margin:130px 45px;}
+
+
+.a{
+background-image:url('../images/udaii.jpg');
+
+
+}
+
+
+/* Full-width inputs */
+
+input 
+
+, select{
+color:khaki;
+
+width: 50%;
+
+padding: 12px 20px;
+
+margin: 8px 0;
+
+display: inline-block;
+}
+
+
+
+/* Set a style for all buttons */
+
+button
+{background-color:#E3170A ; 
+
+color:#FFFFFF;
+
+padding: 14px 20px;
+
+font-size : 20px;
+margin: 8px 0;
+
+border:none;
+
+cursor: pointer;
+
+border-radius : 1.5%;
+width: 25%;
+}
+
+
+
+/* Add a hover effect for buttons */
+
+button:hover
+ {
+opacity: 1;
+
+background-color : #d9534f;
+transition : 0.3s ease-in;
+}
+
+
+.abc{
+background-color:#E3170A;
+padding: 10px;
+color:white;
+
+}
+.a{
+color : #E3170A ;
+}
+
+html
+{
+font-family:Mangal,Metric,adobe-heiti-std,roboto,Sans-Serif;
+}
+.a
+{
+color:#ff5050;
+}

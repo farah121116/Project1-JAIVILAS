@@ -1,0 +1,43 @@
+li:hover{
+background-color:white;
+color: #C1C177;}
+
+ul a li{ 
+display: block;
+text-transform: uppercase;
+color:black;
+text-decoration:none;
+border-width:1px;  
+border-color:transparent;
+border-style:solid;
+font- family:sans serif;
+font-size:24px;
+padding: 2px 20px;
+transition:0.6s ease;
+float:right;
+}
+li{
+display: block;
+text-transform: uppercase;
+color:black;
+text-decoration:none;
+float :right;
+margin:20px;
+font-size:24px;
+list-style-type:none;
+padding-left:20;
+padding-top:20px;
+padding-bottom:20;
+padding-right:10;
+}
+img.img1{float:left; height:100px; width:150px;}
+div.heading1{
+height:100px;
+background-color:rgba(192,192,192,2);
+color:black;
+font-size:32px;
+ overflow: visible;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
